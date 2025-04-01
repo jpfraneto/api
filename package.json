@@ -1,0 +1,17 @@
+{
+  "name": "api.anky.bot",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@farcaster/frame-node": "^0.0.18",
+    "@prisma/client": "^6.5.0",
+    "@types/node-cron": "^3.0.11",
+    "hono": "^4.7.5",
+    "node-cron": "^3.0.3",
+    "prisma": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
